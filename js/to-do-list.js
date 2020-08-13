@@ -29,8 +29,7 @@ $(document).ready(function(){
 				listArr.push([userEntry, completed]);
 				console.log("inside click event", listArr);
 				setupLocalStorage(listArr);
-			}
-			
+			}	
 		}
 		displayList();	
 		$("#user-entry").val("");
@@ -93,11 +92,7 @@ $(document).ready(function(){
 			}
 		}
 		$("#user-entry").focus();
-		
-		
 	});
-	
-	
 });
 
 var displayList = function(){
@@ -108,9 +103,9 @@ var displayList = function(){
 		$("#display-content div").addClass("list-box");
 	}
 	
-	$(".list-box").append("<img src='images/checked.png' class='checked-btn'>");
-	$(".list-box").append("<img src='images/edit.png' class='edit-btn'>");
-	$(".list-box").append("<img src='images/trash.png' class='delete-btn'>");
+	$(".list-box").append("<img src='images/icons8-checked-48.png' class='checked-btn' alt='check mark'>");
+	$(".list-box").append("<img src='images/edit.png' class='checked-btn' alt='edit'>");
+	$(".list-box").append("<img src='images/trash.png' class='delete-btn' alt='delete'>");
 	
 	var divList = document.querySelectorAll(".list-box");
 	for(var i = 0; i < divList.length; i++){

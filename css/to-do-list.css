@@ -114,8 +114,8 @@ h1{
 }
 
 .checked-btn{
+	width: 30px;
 	height: 30px;
-	width: 20px;
 }
 
 .list-box img{
@@ -135,7 +135,6 @@ h1{
 
 .list-box h2{
 	width: 80%;
-	display: inline-block;
 	margin-left: 12px;
 }
 
@@ -158,3 +157,16 @@ footer p{
 footer a{
 	font-size: 12px;
 }
+
+.fa-trash-o{
+	color: red;
+	margin-left: 10px;
+}
+
+.fa-pencil-square-o{
+	margin-top: 3px;
+	color: blue;
+	margin-left: 10px;
+}
+
+
