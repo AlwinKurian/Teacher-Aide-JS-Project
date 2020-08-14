@@ -104,7 +104,7 @@ var displayList = function(){
 	}
 	
 	$(".list-box").append("<img src='images/icons8-checked-48.png' class='checked-btn' alt='check mark'>");
-	$(".list-box").append("<img src='images/edit.png' class='checked-btn' alt='edit'>");
+	$(".list-box").append("<img src='images/edit.png' class='edit-btn' alt='edit'>");
 	$(".list-box").append("<img src='images/trash.png' class='delete-btn' alt='delete'>");
 	
 	var divList = document.querySelectorAll(".list-box");
