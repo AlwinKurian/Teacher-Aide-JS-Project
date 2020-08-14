@@ -1,9 +1,7 @@
 var userEntry = "";
 var listArr = [];
 var nodeList = [];
-var deleteCount = 0;
 var completed = false; 
-
 var editClick = false;
 var editIndex;
 $(document).ready(function(){

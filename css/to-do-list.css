@@ -9,7 +9,7 @@ body{
 }
 
 .body-wrapper{
-	background: url(../images/pexels-andrea-piacquadio-3772511.jpg);
+	background: url(../images/bg.jpg);
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
