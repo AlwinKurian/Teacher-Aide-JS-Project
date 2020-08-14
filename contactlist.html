@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact List</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    
+    <link rel="stylesheet" href="css/contactlist.css">
+
+</head>
+<body>
+    <header>
+			<div class="nav-container">
+				<img src="images/logo.png" alt="logo">
+				<nav>
+					<ul>
+						<li><a href="index.html">To-do List</a></li>
+						<li><a href="#">Grade Calculator</a></li>
+						<li><a href="contactlist.html">Contact Book</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+    <main>
+    <span id="errormsg"></span>
+    <div class="wrapper">
+       
+
+        <h1>Teachers List</h1>
+        
+        <input type="text" id="add_name" placeholder="Enter Name Here...">
+                
+        <input type="tel" id="add_phone" placeholder="Format: XXXXXXXXXX">
+        
+        <input type="text" id="add_address" placeholder="Enter Address Here...">
+        
+        <button id="addbtn">Add contact</button>
+        <button id="update_Contact">Update contact</button>
+
+
+       
+
+        
+
+    </div>
+        <div class="teachers_List">
+
+          <h1> Teachers List</h1>
+          
+          <div class="details"></div>
+
+        </div>
+        
+
+        <div id="team"></div>
+      
+</main>
+    <footer>
+			<p>Copy-right &copy; 2020 Navpreet Kaur, Alwin Jose Kurian, Sai Vikas Mandadi</p>
+	</footer>
+    <script src="js/ContactList.js"></script>
+</body>
+</html>

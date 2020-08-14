@@ -5,7 +5,7 @@ var completed = false;
 var editClick = false;
 var editIndex;
 $(document).ready(function(){
-	
+	$("#user-entry").focus();
 	getLocalStorage();
 	displayList();
 	$("#add-new").click(function(){
@@ -54,6 +54,7 @@ $(document).ready(function(){
 				displayList();
 			}
 		}
+		$("#user-entry").focus();
 	});
 	
 	$("#display-content").on("click", ".checked-btn", function(){
@@ -72,6 +73,7 @@ $(document).ready(function(){
 		}
 		setupLocalStorage();
 		displayList();
+		$("#user-entry").focus();
 		 
 	});
 	

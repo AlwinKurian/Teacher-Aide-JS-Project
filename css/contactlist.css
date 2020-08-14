@@ -1,0 +1,195 @@
+
+
+*{
+    outline: none;
+}
+body{
+	
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+	margin: 0;
+}
+
+main{
+	
+	justify-content: center;
+
+	
+}
+header{
+	
+}
+
+.nav-container{
+	background-color: rgba(255,0,0,0.5);
+}
+
+.nav-container img{
+	float: left;
+	height: 100%;
+}
+
+li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 2em 1em;
+}
+
+ul{
+	margin: 0 auto 0 auto;
+	width: 40%;
+}
+
+ul a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+}
+
+ul a:hover{
+	color: #040E27;
+}
+
+.wrapper{
+    height: 450px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.wrapper input{
+    margin-top: 20px;
+    padding: 15px;
+    width: 50%;
+    border: 2px solid black;
+}
+#team{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #600b0b;
+    border: 5px dotted #2f0909;
+    width: 20%;
+    padding: 20px;
+    
+}
+#team h1{
+    color: #000;
+}
+#add_name, #add_phone, #add_address{
+    border-color: #530c0a;
+}
+#addbtn{
+    margin-top: 20px;
+    padding: 10px;
+   background-color:  #530c0a;
+    color:snow;
+    font-weight: bold;
+    border: none;
+    cursor: pointer; 
+    transition: 0.3s ease;
+    border-radius: 5px;
+}
+#addbtn:hover{
+    transform: scale(1.01);
+    box-shadow: 5px 5px 5px #2f0909;
+    border-radius: 5px;
+}
+
+.teachers_List{
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    border: 5px dotted  #2f0909;
+    padding: 20px;
+    
+}
+
+#deletebtn{
+    background-color: #530c0a;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer; 
+    transition: 0.3s ease;
+}
+#deletebtn:hover{
+    transform: scale(1.01);
+    box-shadow: 5px 10px 8px rgb(32, 28, 28);
+}
+
+#update{
+    margin-top: 20px;
+    padding: 10px;
+    background-image: linear-gradient(120deg, #e2c35d, #d88771);
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+    cursor: pointer; 
+    transition: 0.3s ease;
+}
+#update_Contact {
+    background-color:#530c0a;
+    border: none;
+    padding: 6px 15px;
+    margin-top: 10px;
+    color: white;
+    transition: 0.3s ease;
+}
+
+#update_Contact:hover{
+    transform: scale(1.01);
+    box-shadow: 5px 10px 8px rgb(32, 28, 28);
+}
+
+#updatebtn{
+    background-color: #530c0a;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer; 
+    transition: 0.3s ease;
+}
+
+
+#updatebtn:hover{
+    transform: scale(1.01);
+    box-shadow: 5px 10px 8px rgb(32, 28, 28);
+}
+
+#errormsg{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+  
+    padding: 20px 50px;
+    font-weight: bold;
+}
+.left{
+    float: left;
+}
+.right{
+    float: left;
+}
+footer{
+	padding: 2em 0;
+	background-color: rgba(0, 0, 0);
+}
+
+footer p{
+	margin: 0;
+	text-align: center;
+	color: white;
+}
+
+footer a{
+	font-size: 12px;
+}
+

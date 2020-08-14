@@ -1,0 +1,22 @@
+    {"teammembers":[
+    {
+		"full_name": "Herbert Huff",
+		"title": "Chair Person",
+		"address": "Mississauga Canada",
+		"phone_Number": "+1 414 562 1748"
+	},
+	{
+        "title": "Principle",
+		"full_name": "Joyce Domingo",
+		
+		"address": "Ontario,Canada",
+		"phone_Number": "+1 226 505 0003"
+	},
+	{
+		"full_name": "Damon Dell",
+		"title": "Vise Principle",
+		"address": "Vancouver Canada",
+	    "phone_Number": "+1 514 562 7589"
+	}
+	
+]}
